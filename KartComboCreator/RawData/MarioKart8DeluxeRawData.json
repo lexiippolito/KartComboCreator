@@ -4,7 +4,7 @@
       "name": "Mario",
       "stats": {
         "weight": 6,
-        "acceleration": 2,
+        "acceleration": 2, 
         "traction": {
           "onRoad": 4,
           "offRoad": 2
