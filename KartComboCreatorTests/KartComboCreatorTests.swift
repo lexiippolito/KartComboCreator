@@ -30,6 +30,12 @@ import XCTest
 // question EVERYTHING
 
 final class KartComboCreatorTests: XCTestCase {
+    
+    func test_getDriverStats_forToad_getsToadStats() {
+        print("🤠 starting test")
+        let toadStats = getDriverStats(for: "Toad")
+        print("🥳 test finished")
+    }
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
