@@ -33,7 +33,8 @@ final class KartComboCreatorTests: XCTestCase {
     
     func test_getDriverStats_forToad_getsToadStats() {
         print("🤠 starting test")
-        let toadStats = getDriverStats(for: "Toad")
+        let toadData = try? getDriverData(for: "Toad")
+        print("Toad data: \(String(describing: toadData))")
         print("🥳 test finished")
     }
 

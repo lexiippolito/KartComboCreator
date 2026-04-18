@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Super Glider",
+    "stats": {
+      "weight": 1,
+      "acceleration": 1,
+      "traction": {
+        "onRoad": 1,
+        "offRoad": 1
+      },
+      "miniTurbo": 1,
+      "speed": {
+        "ground": 1,
+        "water": 1,
+        "antiGravity": 0,
+        "air": 2
+      },
+      "handling": {
+        "ground": 1,
+        "water": 0,
+        "antiGravity": 1,
+        "air": 1
+      }
+    }
+  },
+  {
+    "name": "Cloud Glider",
+    "stats": {
+      "weight": 0,
+      "acceleration": 2,
+      "traction": {
+        "onRoad": 1,
+        "offRoad": 1
+      },
+      "miniTurbo": 2,
+      "speed": {
+        "ground": 0,
+        "water": 1,
+        "antiGravity": 1,
+        "air": 1
+      },
+      "handling": {
+        "ground": 1,
+        "water": 0,
+        "antiGravity": 1,
+        "air": 2
+      }
+    }
+  },
+  {
+    "name": "Wario Wing",
+    "stats": {
+      "weight": 2,
+      "acceleration": 1,
+      "traction": {
+        "onRoad": 2,
+        "offRoad": 0
+      },
+      "miniTurbo": 1,
+      "speed": {
+        "ground": 1,
+        "water": 0,
+        "antiGravity": 1,
+        "air": 2
+      },
+      "handling": {
+        "ground": 1,
+        "water": 1,
+        "antiGravity": 0,
+        "air": 1
+      }
+    }
+  },
+  {
+    "name": "Waddle Wing",
+    "stats": {
+      "weight": 1,
+      "acceleration": 1,
+      "traction": {
+        "onRoad": 1,
+        "offRoad": 1
+      },
+      "miniTurbo": 1,
+      "speed": {
+        "ground": 1,
+        "water": 1,
+        "antiGravity": 0,
+        "air": 2
+      },
+      "handling": {
+        "ground": 1,
+        "water": 0,
+        "antiGravity": 1,
+        "air": 1
+      }
+    }
+  },
+  {
+    "name": "Peach Parasol",
+    "stats": {
+      "weight": 1,
+      "acceleration": 2,
+      "traction": {
+        "onRoad": 2,
+        "offRoad": 0
+      },
+      "miniTurbo": 2,
+      "speed": {
+        "ground": 0,
+        "water": 0,
+        "antiGravity": 1,
+        "air": 1
+      },
+      "handling": {
+        "ground": 1,
+        "water": 1,
+        "antiGravity": 0,
+        "air": 2
+      }
+    }
+  },
+  {
+    "name": "Parachute",
+    "stats": {
+      "weight": 0,
+      "acceleration": 2,
+      "traction": {
+        "onRoad": 1,
+        "offRoad": 1
+      },
+      "miniTurbo": 2,
+      "speed": {
+        "ground": 0,
+        "water": 1,
+        "antiGravity": 1,
+        "air": 1
+      },
+      "handling": {
+        "ground": 1,
+        "water": 0,
+        "antiGravity": 1,
+        "air": 2
+      }
+    }
+  },
+  {
+    "name": "Parafoil",
+    "stats": {
+      "weight": 1,
+      "acceleration": 2,
+      "traction": {
+        "onRoad": 2,
+        "offRoad": 0
+      },
+      "miniTurbo": 2,
+      "speed": {
+        "ground": 0,
+        "water": 0,
+        "antiGravity": 1,
+        "air": 1
+      },
+      "handling": {
+        "ground": 1,
+        "water": 1,
+        "antiGravity": 0,
+        "air": 2
+      }
+    }
+  },
+  {
+    "name": "Flower Glider",
+    "stats": {
+      "weight": 0,
+      "acceleration": 2,
+      "traction": {
+        "onRoad": 1,
+        "offRoad": 1
+      },
+      "miniTurbo": 2,
+      "speed": {
+        "ground": 0,
+        "water": 1,
+        "antiGravity": 1,
+        "air": 1
+      },
+      "handling": {
+        "ground": 1,
+        "water": 0,
+        "antiGravity": 1,
+        "air": 2
+      }
+    }
+  },
+  {
+    "name": "Bowser Kite",
+    "stats": {
+      "weight": 1,
+      "acceleration": 2,
+      "traction": {
+        "onRoad": 2,
+        "offRoad": 0
+      },
+      "miniTurbo": 2,
+      "speed": {
+        "ground": 0,
+        "water": 0,
+        "antiGravity": 1,
+        "air": 1
+      },
+      "handling": {
+        "ground": 1,
+        "water": 1,
+        "antiGravity": 0,
+        "air": 2
+      }
+    }
+  },
+  {
+    "name": "Plane Glider",
+    "stats": {
+      "weight": 2,
+      "acceleration": 1,
+      "traction": {
+        "onRoad": 2,
+        "offRoad": 0
+      },
+      "miniTurbo": 1,
+      "speed": {
+        "ground": 1,
+        "water": 0,
+        "antiGravity": 1,
+        "air": 2
+      },
+      "handling": {
+        "ground": 1,
+        "water": 1,
+        "antiGravity": 0,
+        "air": 1
+      }
+    }
+  },
+  {
+    "name": "MKTV Parafoil",
+    "stats": {
+      "weight": 1,
+      "acceleration": 2,
+      "traction": {
+        "onRoad": 2,
+        "offRoad": 0
+      },
+      "miniTurbo": 2,
+      "speed": {
+        "ground": 0,
+        "water": 0,
+        "antiGravity": 1,
+        "air": 1
+      },
+      "handling": {
+        "ground": 1,
+        "water": 1,
+        "antiGravity": 0,
+        "air": 2
+      }
+    }
+  },
+  {
+    "name": "Gold Glider",
+    "stats": {
+      "weight": 2,
+      "acceleration": 1,
+      "traction": {
+        "onRoad": 2,
+        "offRoad": 0
+      },
+      "miniTurbo": 1,
+      "speed": {
+        "ground": 1,
+        "water": 0,
+        "antiGravity": 1,
+        "air": 2
+      },
+      "handling": {
+        "ground": 1,
+        "water": 1,
+        "antiGravity": 0,
+        "air": 1
+      }
+    }
+  },
+  {
+    "name": "Hylian Kite",
+    "stats": {
+      "weight": 1,
+      "acceleration": 1,
+      "traction": {
+        "onRoad": 1,
+        "offRoad": 1
+      },
+      "miniTurbo": 1,
+      "speed": {
+        "ground": 1,
+        "water": 1,
+        "antiGravity": 0,
+        "air": 2
+      },
+      "handling": {
+        "ground": 1,
+        "water": 0,
+        "antiGravity": 1,
+        "air": 1
+      }
+    }
+  },
+  {
+    "name": "Paper Glider",
+    "stats": {
+      "weight": 0,
+      "acceleration": 2,
+      "traction": {
+        "onRoad": 1,
+        "offRoad": 1
+      },
+      "miniTurbo": 2,
+      "speed": {
+        "ground": 0,
+        "water": 1,
+        "antiGravity": 1,
+        "air": 1
+      },
+      "handling": {
+        "ground": 1,
+        "water": 0,
+        "antiGravity": 1,
+        "air": 2
+      }
+    }
+  }
+]

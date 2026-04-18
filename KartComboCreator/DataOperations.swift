@@ -7,42 +7,27 @@
 
 import Foundation
 
-func loadDriverRawData() throws -> [RawDataModel] {
-    guard let url = Bundle.main.url(forResource: "DriverData", withExtension: "json") else {
+func loadRawData(from fileName: String) throws -> [RawDataModel] {
+    guard let url = Bundle.main.url(forResource: fileName, withExtension: "json") else {
         throw DataOperationsError.fileNotFound
     }
 
-    let data = try Data(contentsOf: url)
-    return try JSONDecoder().decode([RawDataModel].self, from: data)
+    do {
+        let data = try Data(contentsOf: url)
+        return try JSONDecoder().decode([RawDataModel].self, from: data)
+    } catch {
+        throw DataOperationsError.failedToLoadData
+    }
 }
 
-func getDriverStats(for driver: String) -> RawDataModel {
-    let rawDataModel = try! loadDriverRawData()
+func getDriverData(for driver: String) throws -> RawDataModel? {
+    let rawDataModel = try loadRawData(from: "DriverData")
     
-    guard let driverData = rawDataModel.first(where: { $0.name.lowercased() == driver.lowercased() }) else { return RawDataModel(name: driver,
-                                 stats: Stats(weight: 1,
-                                              acceleration: 1,
-                                              traction: TractionStats(onRoad: 1,
-                                                                      offRoad: 1),
-                                              miniTurbo: 1,
-                                              speed: SurfaceStats(ground: 1,
-                                                                  water: 1,
-                                                                  antiGravity: 1,
-                                                                  air: 1),
-                                              handling: SurfaceStats(ground: 1,
-                                                                     water: 1,
-                                                                     antiGravity: 1,
-                                                                     air: 1))
-    )
-    }
-    
-    print("found driver 🏎️")
-    print(driverData.name)
-    print(driverData.stats.acceleration)
-    
-    return RawDataModel(name: driverData.name, stats: driverData.stats)
+    return rawDataModel.first { $0.name.caseInsensitiveCompare(driver) == .orderedSame }
 }
 
 enum DataOperationsError: Error {
     case fileNotFound
+    case failedToLoadData
+    // driver not found error? + other ones like that?
 }
