@@ -11,7 +11,30 @@ struct Strings {
     static let homepageTitle = "Kart Combo Creator"
     static let homepageWelcomeSubtitle = "Welcome to the \(homepageTitle)! Use this app to create and share kart combo builds."
     
+    // MARK: Components
+    static let Driver = "Driver"
+    static let Body = "Body"
+    static let Tires = "Tires"
+    static let Glider = "Glider"
     
-// MARK: Drivers
-    static let Toad = "Toad"
+    static let Drivers = "Drivers"
+    static let Bodies = "Bodies"
+    static let Gliders = "Gliders"
+    
+    // MARK: Statistics
+    // note that some aren't used?
+    static let Acceleration = "Acceleration"
+    static let Weight = "Weight"
+    static let Traction = "Traction"
+    static let OnRoadTraction = "On-Road Traction"
+    static let OffRoadTraction = "Off-Road Traction"
+    static let MiniTurbo = "Mini Turbo"
+    static let Speed = "Speed"
+    static let Handling = "Handling"
+    static let Surfaces = "Surfaces"
+    static let Ground = "Ground"
+    static let Water = "Water"
+    static let AntiGravity = "Anti-Gravity"
+    static let Air = "Air"
+    static let statistics = [Acceleration, Weight, Traction, MiniTurbo, Speed, Handling]
 }

@@ -31,11 +31,55 @@ import XCTest
 
 final class KartComboCreatorTests: XCTestCase {
     
-    func test_getDriverStats_forToad_getsToadStats() {
+    func test_getAllDriverNames_returnsAllDriverNames() {
         print("🤠 starting test")
-        let toadData = try? getDriverData(for: "Toad")
-        print("Toad data: \(String(describing: toadData))")
-        print("🥳 test finished")
+        let allDriverNames = try? getAllDriverNames()
+        
+        XCTAssertEqual(allDriverNames!.count, 43)
+        XCTAssertEqual(allDriverNames,  ["Mario",
+                                         "Luigi",
+                                         "Peach",
+                                         "Daisy",
+                                         "Yoshi",
+                                         "Toad",
+                                         "Toadette",
+                                         "Koopa Troopa",
+                                         "Bowser",
+                                         "Donkey Kong",
+                                         "Wario",
+                                         "Waluigi",
+                                         "Rosalina",
+                                         "Metal Mario",
+                                         "Pink Gold Peach",
+                                         "Lakitu",
+                                         "Shy Guy",
+                                         "Baby Mario",
+                                         "Baby Luigi",
+                                         "Baby Peach",
+                                         "Baby Daisy",
+                                         "Baby Rosalina",
+                                         "Larry",
+                                         "Lemmy",
+                                         "Wendy",
+                                         "Ludwig",
+                                         "Iggy",
+                                         "Roy",
+                                         "Morton",
+                                         "Mii (medium)",
+                                         "Tanooki Mario",
+                                         "Link",
+                                         "Villager (male)",
+                                         "Isabelle",
+                                         "Cat Peach",
+                                         "Dry Bowser",
+                                         "Villager (female)",
+                                         "Gold Mario",
+                                         "Dry Bones",
+                                         "Bowser Jr.",
+                                         "King Boo",
+                                         "Inkling Girl",
+                                         "Inkling Boy"
+                                        ])
     }
 
     override func setUpWithError() throws {

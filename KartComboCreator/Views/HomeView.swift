@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  KartComboCreator
 //
-//  Created by Ippolito, Lexi on 4/14/26.
+//  Created by Lexi on 4/18/26.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
         VStack {
             HStack {
@@ -23,6 +23,12 @@ struct ContentView: View {
                 Spacer()
             }
             
+            HStack {
+                Text("Select a character to get started:")
+                    .font(Font.subheadline)
+                Spacer()
+            }
+            
             Spacer()
         }
         .padding()
@@ -30,5 +36,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    HomeView()
 }
