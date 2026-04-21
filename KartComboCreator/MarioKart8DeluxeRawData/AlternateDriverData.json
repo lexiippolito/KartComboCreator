@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Villager (female)",
+        "stats": {
+            "weight": 3,
+            "acceleration": 4,
+            "traction": {
+                "onRoad": 2,
+                "offRoad": 3
+            },
+            "miniTurbo": 3,
+            "speed": {
+                "ground": 4,
+                "water": 4,
+                "antiGravity": 4,
+                "air": 4
+            },
+            "handling": {
+                "ground": 6,
+                "water": 6,
+                "antiGravity": 6,
+                "air": 6
+            }
+        }
+    },
+    {
+        "name": "Gold Mario",
+        "stats": {
+            "weight": 10,
+            "acceleration": 1,
+            "traction": {
+                "onRoad": 8,
+                "offRoad": 1
+            },
+            "miniTurbo": 1,
+            "speed": {
+                "ground": 8,
+                "water": 8,
+                "antiGravity": 8,
+                "air": 8
+            },
+            "handling": {
+                "ground": 3,
+                "water": 3,
+                "antiGravity": 3,
+                "air": 3
+            }
+        }
+    },
+    {
+        "name": "Inkling Boy",
+        "stats": {
+            "weight": 5,
+            "acceleration": 3,
+            "traction": {
+                "onRoad": 7,
+                "offRoad": 1
+            },
+            "miniTurbo": 3,
+            "speed": {
+                "ground": 5,
+                "water": 5,
+                "antiGravity": 5,
+                "air": 5
+            },
+            "handling": {
+                "ground": 5,
+                "water": 5,
+                "antiGravity": 5,
+                "air": 5
+            }
+        }
+    }
+]

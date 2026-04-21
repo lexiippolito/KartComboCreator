@@ -28,6 +28,8 @@ func getAllDriverNames() throws -> [String] {
     let data = try Data(contentsOf: url)
     let json = try JSONSerialization.jsonObject(with: data) as? [[String: Any]]
 
+    print("NAMES")
+    print(json?.compactMap { $0["name"] as? String } ?? [])
     return json?.compactMap { $0["name"] as? String } ?? []
 }
 

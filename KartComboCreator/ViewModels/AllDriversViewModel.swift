@@ -8,5 +8,14 @@
 import Foundation
 
 struct AllDriversViewModel {
-    let driverNames = try! getAllDriverNames() // have to fix
+    let driverNames: [String]
+    
+    init() {
+        do {
+            driverNames = try getAllDriverNames()
+        } catch(let error) {
+            print(error)
+            driverNames = []
+        }
+    }
 }

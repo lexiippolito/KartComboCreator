@@ -9,7 +9,7 @@ import Foundation
 
 struct Strings {
     static let homepageTitle = "Kart Combo Creator"
-    static let homepageWelcomeSubtitle = "Welcome to the \(homepageTitle)! Use this app to create and share kart combo builds."
+    static let homepageWelcomeSubtitle = "Welcome to the \(homepageTitle)! Use this app to create and share your favorite kart combo builds."
     
     // MARK: Components
     static let Driver = "Driver"

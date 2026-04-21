@@ -24,11 +24,12 @@ struct HomeView: View {
             }
             
             HStack {
-                Text("Select a character to get started:")
+                Text("Select your driver to get started:")
                     .font(Font.subheadline)
                 Spacer()
             }
             
+            AllDriversView()
             Spacer()
         }
         .padding()
