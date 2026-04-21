@@ -32,7 +32,7 @@ struct AllDriversView: View {
                             .resizable()
                             .scaledToFill()
                             .aspectRatio(1, contentMode: .fit)
-                            .clipped()
+                            .clipped() 
                     }
                 }
             }
