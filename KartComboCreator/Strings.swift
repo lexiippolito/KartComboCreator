@@ -20,8 +20,9 @@ struct Strings {
     static let Drivers = "Drivers"
     static let Bodies = "Bodies"
     static let Gliders = "Gliders"
-    
-    // MARK: Statistics
+}
+
+struct StatStrings {
     // note that some aren't used?
     static let Acceleration = "Acceleration"
     static let Weight = "Weight"
@@ -31,10 +32,16 @@ struct Strings {
     static let MiniTurbo = "Mini Turbo"
     static let Speed = "Speed"
     static let Handling = "Handling"
+    
+    static let allValues = [Acceleration, Weight, Traction, MiniTurbo, Speed, Handling]
+}
+
+struct SurfaceStrings {
     static let Surfaces = "Surfaces"
     static let Ground = "Ground"
     static let Water = "Water"
     static let AntiGravity = "Anti-Gravity"
     static let Air = "Air"
-    static let statistics = [Acceleration, Weight, Traction, MiniTurbo, Speed, Handling]
+    
+    static let allValues = [Ground, Water, AntiGravity, Air]
 }
